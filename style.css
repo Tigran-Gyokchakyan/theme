@@ -1,0 +1,454 @@
+/*!
+Theme Name: zapara
+
+Author: Taras Senko
+Author URI: https://tarassenko.dev/
+Description: Zapara - shop
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: zapara
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+zapara is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+.clear:before,
+.clear:after{
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+.clear:after{
+	clear: both;
+}
+
+.tunic__button {
+	cursor: pointer;
+}
+
+.items___1.kiteli .items1__item {
+    max-height: 540px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.items___1.kiteli .items1__item-subtitle {
+	display: none;
+}
+.items___1.kiteli .items1__item-img {
+	padding-bottom: 50%!important;
+}
+.reviewrubasshki {
+    background-size: 100%;
+    margin-top: -70px;
+}
+.acsess .woocommerce .items1__item-img {
+	background-size: 100%;
+    padding-bottom: 300px;
+}
+.clients__grid {
+	display: flex;
+  	flex-wrap: wrap;
+}
+.clients__grid-item {
+	  flex: 1 0 18%;
+	  display: flex;
+	width:49%;
+	  align-items: center;
+	  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .clients__grid-item img {width:150px;}
+
+}
+body .footer__navigation-wrapper {
+	list-style: none;
+	text-align: center;
+}
+body .footer__navigation-wrapper li {
+	margin: 0;
+	font-size: 1rem;
+	-ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+body .footer__navigation-wrapper li + li {
+	margin: 0;
+}
+
+.home-page .ngg-galleryoverview {
+	width: auto;
+    margin: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+	justify-content: flex-start;
+    clear: unset;
+}
+.home-page .ngg-galleryoverview.default-view .ngg-gallery-thumbnail-box {
+	position: relative;
+    width: 100%;
+	float: none!important;
+	-ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+	padding-right: 5px;
+    padding-left: 5px;
+	box-sizing: border-box;
+}
+.home-page .ngg-galleryoverview.default-view .ngg-gallery-thumbnail-box:nth-child(n+4) {
+	margin-top: 10px;
+}
+.home-page .ngg-galleryoverview.default-view .ngg-gallery-thumbnail a, 
+.home-page .ngg-galleryoverview.default-view .ngg-gallery-thumbnail img {
+	width: 100%;
+	height: 240px;
+	margin: 0;
+}
+.home-page .ngg-galleryoverview.default-view .ngg-gallery-thumbnail img {
+	object-fit: cover;
+}
+.home-page .gallery__open_dop {
+	margin: 2rem auto 0;
+}
+.home-page .gallery__dop.active {
+	margin-top: 10px;
+}
+
+.header__logo {
+	position: relative;
+    top: -3px;
+}
+.header__menu.active .header__menu-btn {
+	right: 1rem;
+    top: 1rem;
+    width: 2rem;
+    height: 2rem;
+	transform: none;
+    line-height: 1;
+}
+.header_not_burger_inner {
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.header_not_burger_inner .header__logo {
+	-ms-flex: 0 0 15%;
+    flex: 0 0 15%;
+    max-width: 15%;
+	top: 0;
+	order: 1;
+}
+.header_not_burger_inner .header__burger-wrapper {
+	position: relative;
+	margin: 0;
+	-ms-flex: 0 0 85%;
+    flex: 0 0 85%;
+    max-width: 85%;
+	order: 2;
+}
+.header_not_burger_inner .header__burger-wrapper ul.header__menu {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+	flex-direction: row;
+}
+.header_not_burger_inner .header__burger-wrapper ul.header__menu li {
+	font-size: 1rem;
+	-ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+	margin: 0;
+	padding: 0;
+	font-size: 0.75rem;
+}
+.header_not_burger_inner .header__burger-wrapper ul.header__menu li.header__menu-btn-wrapper {
+	display: none;
+}
+.header_not_burger_inner .header__burger-wrapper ul.header__menu li.header-phone {
+	font-weight: bold;
+    font-size: 1rem;
+}
+.header__inner .header__burger-wrapper ul.header__menu li.header-phone {
+	margin-top: 8rem;
+	font-weight: bold;
+	text-align: right;
+}
+.fartuki-slider-wrap .swiper-container-multirow-column > .swiper-wrapper {
+	flex-direction: row;
+	align-items: baseline;
+}
+.swiper-container-multirow-column .fartuki-slider-item img {
+    height: 130px;
+    object-fit: cover;
+}
+body .map__info {
+    width: 670px;
+    height: 100%;
+    top: 50px;
+    left: 250px;
+    position: absolute;
+    z-index: 1;
+    background: rgb(255 255 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body .map__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.item_simple.item_basic .items1__item.open-modal {
+	display: none;
+}
+.item_simple.item_basic .popup {
+	position: relative;
+    transform: none;
+    background: none;
+    z-index: 1;
+}
+.item_simple.item_basic .popup .popup__inner {
+	padding-top: 0;
+}
+.whatsapp-link {
+	text-decoration: underline;
+}
+.instagram-link {}
+.instagram-link svg {
+	width: 2rem;
+    height: 2rem;
+    position: relative;
+    top: 8px;
+}
+
+@media screen and (max-width: 1366px) {
+	body .map__info {
+		transform: scale(0.9);
+		top: 100px;
+		left: 100px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.header .header_not_burger_inner .header__burger-wrapper ul.header__menu:not(.active) {
+		visibility: hidden;
+	}
+	.header_not_burger_inner .header__burger-wrapper {
+		-ms-flex: unset;
+		flex: unset;
+		max-width: unset;
+		order: unset;
+	}
+	.header_not_burger_inner .header__logo {
+		-ms-flex: unset;
+		flex: unset;
+		max-width: unset;
+		order: unset;
+	}
+	.header.mobile .header_not_burger_inner .header__burger-wrapper ul.header__menu li {
+		margin: 0 0 2rem;
+		display: list-item;
+		border-bottom: none;
+		font-size: 28px;
+		-ms-flex: unset;
+    	flex: unset;
+	}
+	.fartuki-slider__inner .fartuki-slider-wrap {
+		max-width: 90vw;
+		width: 100%;
+		margin-left: 0;
+		position: relative;
+	}
+	.fartuki-slider-pagination {
+		display: none;
+	}
+	body .map__info {
+		transform: scale(0.9);
+		top: 220px;
+		left: 100px;
+		width: 500px;
+		height: auto;
+		padding: 70px 0;
+	}
+}
+@media screen and (max-width: 814px) {
+	.header__inner .header__burger-wrapper ul.header__menu li,
+	.header.mobile .header_not_burger_inner .header__burger-wrapper ul.header__menu.active li {
+		font-size: 20px;
+		line-height: 1;
+	}
+	.header__inner .header__burger-wrapper ul.header__menu li.header-phone
+	.header.mobile .header_not_burger_inner .header__burger-wrapper ul.header__menu li.header-phone {
+		margin-top: 2rem;
+		font-weight: bold;
+	}
+	.header.mobile .header_not_burger_inner .header__burger-wrapper ul.header__menu li,
+	.header__inner .header__menu-item + .header__menu-item {
+		margin-top: 10px;
+	}
+	body .map__info {
+		transform: unset;
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: auto;
+    	padding: 0 0 50px;
+	}
+	body .map__info-wrapper {
+		margin-left: 0;
+	}
+	.item_simple_col.item_basic_col {
+		float: none;
+	}
+	.item_simple_col.item_basic_col .popup .container {
+		padding: 0;
+	}
+}
+@media screen and (max-width: 414px) {
+	body .footer__navigation-wrapper li, 
+	body .footer__navigation-wrapper li + li {
+		margin: 0.5rem;
+	}
+	.home-page .ngg-galleryoverview.default-view .ngg-gallery-thumbnail-box {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.home-page .ngg-galleryoverview.default-view .ngg-gallery-thumbnail-box:nth-child(n+3) {
+		margin-top: 10px;
+	}
+	.home-page .ngg-galleryoverview.default-view .ngg-gallery-thumbnail a, 
+	.home-page .ngg-galleryoverview.default-view .ngg-gallery-thumbnail img {
+		height: 150px;
+	}
+}
