@@ -6,7 +6,7 @@
     <main class="main home-page">
         <section class="preview">
             <div class="preview__inner">
-                <img src="../wp-content/themes/zapara/assets/dist/text-bg.8e451185.png" id="cog" alt="" class="preview__bg">
+                <img src="/wp-content/themes/zapara/assets/dist/text-bg.8e451185.png" id="cog" alt="" class="preview__bg">
                 <div class="swiper-container preview__slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide preview__slider-item">
@@ -17,7 +17,7 @@
                                         <div class="preview__slider-item-text-middle"> Стильная униформа </div>
                                         <a href="#1" class="preview__slider-item-text-bottom"> в каталог </a>
                                     </div>
-                                    <img class="preview__slider-item-img" src="../wp-content/themes/zapara/assets/dist/preview-slider.38129699.png" alt="">
+                                    <img class="preview__slider-item-img" src="/wp-content/themes/zapara/assets/dist/preview-slider.38129699.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                 </div>
             </div>
         </section>
-        <section class="shirts" style="background-image:url(../wp-content/themes/zapara/assets/dist/bg4.35567f94.jpg);">
+        <section class="shirts" style="background-image:url(/wp-content/themes/zapara/assets/dist/bg4.35567f94.jpg);">
             <div class="container">
                 <div class="shirts__inner" data-aos="fade-up">
                     <div class="shirts__subtitle"> То, что вы так долго искали </div>
@@ -75,7 +75,7 @@
         <section class="uniform">
             <div class="container">
                 <div class="uniform__inner">
-                    <img class="uniform__img" src="../wp-content/themes/zapara/assets/dist/bg6.c39fabb8.png" alt="">
+                    <img class="uniform__img" src="/wp-content/themes/zapara/assets/dist/bg6.c39fabb8.png" alt="">
                     <div class="uniform__text" data-aos="fade-up">
                         <div class="uniform__subtitle">Униформа, которую хочется...</div>
                         <h2 class="uniform__title">носить</h2>
@@ -155,7 +155,7 @@
                                 </div>
                                 <div class="review__slider-wrapper-slide swiper-slide">
                                     <div class="review__slide-header">
-                                        <img src="../wp-content/themes/zapara/assets/images/reviews/review-2.jpg" alt="" class="review__slide-header-image">
+                                        <img src="/wp-content/themes/zapara/assets/images/reviews/review-2.jpg" alt="" class="review__slide-header-image">
                                         <div class="review__slide-header-info">
                                             <h3>Алена Сафьянова</h3>
                                             <p>I like wine, Москва</p>
@@ -182,7 +182,7 @@
                                 </div>
                                 <div class="review__slider-wrapper-slide swiper-slide">
                                     <div class="review__slide-header">
-                                        <img src="../wp-content/themes/zapara/assets/images/reviews/review-3.jpg" alt="" class="review__slide-header-image">
+                                        <img src="/wp-content/themes/zapara/assets/images/reviews/review-3.jpg" alt="" class="review__slide-header-image">
                                         <div class="review__slide-header-info">
                                             <h3>Екатерина Ефимова</h3>
                                             <p>Латинский квартал, Москва</p>

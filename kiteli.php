@@ -7,7 +7,7 @@
 get_header(); ?>
 
       <main class="main" style="padding-top: 70px;">
-         <section class="review mobile" style="background-image:url(../wp-content/uploads/2021/01/46.jpg);">
+         <section class="review mobile" style="background-image:url(/wp-content/uploads/2021/01/46.jpg);">
             <div class="container">
                <div class="review__inner">
                   <h1 class="review__title">КИТЕЛИ</h1>

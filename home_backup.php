@@ -9,7 +9,7 @@ get_header(); ?>
 <main class="main">
          <section class="preview">
             <div class="preview__inner">
-               <img src="../wp-content/themes/zapara/assets/dist/text-bg.8e451185.png" id="cog" alt="" class="preview__bg"> 
+               <img src="/wp-content/themes/zapara/assets/dist/text-bg.8e451185.png" id="cog" alt="" class="preview__bg"> 
                <div class="swiper-container preview__slider">
                   <div class="swiper-wrapper">
                      <div class="swiper-slide preview__slider-item">
@@ -20,7 +20,7 @@ get_header(); ?>
                                  <div class="preview__slider-item-text-middle"> Стильная униформа </div>
                                  <a href="#1" class="preview__slider-item-text-bottom"> в каталог </a> 
                               </div>
-                              <img class="preview__slider-item-img" src="../wp-content/themes/zapara/assets/dist/preview-slider.38129699.png" alt=""> 
+                              <img class="preview__slider-item-img" src="/wp-content/themes/zapara/assets/dist/preview-slider.38129699.png" alt=""> 
                            </div>
                         </div>
                      </div>
@@ -57,7 +57,7 @@ get_header(); ?>
                </div>
             </div>
          </section>
-         <section class="shirts" style="background-image:url(../wp-content/themes/zapara/assets/dist/bg4.35567f94.jpg);">
+         <section class="shirts" style="background-image:url(/wp-content/themes/zapara/assets/dist/bg4.35567f94.jpg);">
             <div class="container">
                <div class="shirts__inner" data-aos="fade-up">
                   <div class="shirts__subtitle"> То, что вы так долго искали </div>
@@ -78,7 +78,7 @@ get_header(); ?>
          <section class="uniform">
             <div class="container">
                <div class="uniform__inner">
-                  <img class="uniform__img" src="../wp-content/themes/zapara/assets/dist/bg6.c39fabb8.png" alt=""> 
+                  <img class="uniform__img" src="/wp-content/themes/zapara/assets/dist/bg6.c39fabb8.png" alt=""> 
                   <div class="uniform__text" data-aos="fade-up">
                      <div class="uniform__subtitle">Униформа, которую хочется...</div>
                      <h2 class="uniform__title">носить</h2>
@@ -93,12 +93,12 @@ get_header(); ?>
                   <h2 class="clients__wrapper-title" data-aos="fade-up">Наши клиенты</h2>
                   <div class="clients__slider">
                      <div class="swiper-wrapper clients__slider-wrapper">
-                        <div class="swiper-slide clients__slider-wrapper-slide"> <a href="#"> <img src="../wp-content/themes/zapara/assets/dist/15a.ac6e7332.jpg" alt="15a"> </a> <a href="#"> <img src="../wp-content/themes/zapara/assets/dist/bar_klava.6c336d24.jpg" alt="bar_klava"> </a> </div>
-                        <div class="swiper-slide clients__slider-wrapper-slide"> <a href="#"> <img src="../wp-content/themes/zapara/assets/dist/45_parallel.2dcba3c8.jpg" alt="15a"> </a> <a href="#"> <img src="../wp-content/themes/zapara/assets/dist/easy_brix_1.dadcf04b.jpg" alt="bar_klava"> </a> </div>
-                        <div class="swiper-slide clients__slider-wrapper-slide"> <a href="#"> <img src="../wp-content/themes/zapara/assets/dist/174260logo.e5d673a8.jpg" alt="15a"> </a> <a href="#"> <img src="../wp-content/themes/zapara/assets/dist/dyhless.08658041.jpg" alt="bar_klava"> </a> </div>
-                        <div class="swiper-slide clients__slider-wrapper-slide"> <a href="#"> <img src="../wp-content/themes/zapara/assets/dist/244330.d87b83b2.jpg" alt="15a"> </a> <a href="#"> <img src="../wp-content/themes/zapara/assets/dist/ginza.041636c8.jpg" alt="bar_klava"> </a> </div>
+                        <div class="swiper-slide clients__slider-wrapper-slide"> <a href="#"> <img src="/wp-content/themes/zapara/assets/dist/15a.ac6e7332.jpg" alt="15a"> </a> <a href="#"> <img src="/wp-content/themes/zapara/assets/dist/bar_klava.6c336d24.jpg" alt="bar_klava"> </a> </div>
+                        <div class="swiper-slide clients__slider-wrapper-slide"> <a href="#"> <img src="/wp-content/themes/zapara/assets/dist/45_parallel.2dcba3c8.jpg" alt="15a"> </a> <a href="#"> <img src="/wp-content/themes/zapara/assets/dist/easy_brix_1.dadcf04b.jpg" alt="bar_klava"> </a> </div>
+                        <div class="swiper-slide clients__slider-wrapper-slide"> <a href="#"> <img src="/wp-content/themes/zapara/assets/dist/174260logo.e5d673a8.jpg" alt="15a"> </a> <a href="#"> <img src="/wp-content/themes/zapara/assets/dist/dyhless.08658041.jpg" alt="bar_klava"> </a> </div>
+                        <div class="swiper-slide clients__slider-wrapper-slide"> <a href="#"> <img src="/wp-content/themes/zapara/assets/dist/244330.d87b83b2.jpg" alt="15a"> </a> <a href="#"> <img src="/wp-content/themes/zapara/assets/dist/ginza.041636c8.jpg" alt="bar_klava"> </a> </div>
                         <div class="swiper-slide clients__slider-wrapper-slide">
-                           <a href="#"> <img src="../wp-content/themes/zapara/assets/dist/bakardi.4e928c26.jpg" alt="15a"> </a> 
+                           <a href="#"> <img src="/wp-content/themes/zapara/assets/dist/bakardi.4e928c26.jpg" alt="15a"> </a> 
                            <p class="clients__slider-text"> и другие... </p>
                         
                </div>
@@ -117,7 +117,7 @@ get_header(); ?>
                         <div class="swiper-wrapper review__slider-wrapper">
                            <div class="review__slider-wrapper-slide swiper-slide">
                               <div class="review__slide-header">
-                                 <img src="../wp-content/themes/zapara/assets/dist/review-img.fbecea9c.jpg" alt="" class="review__slide-header-image"> 
+                                 <img src="/wp-content/themes/zapara/assets/dist/review-img.fbecea9c.jpg" alt="" class="review__slide-header-image"> 
                                  <div class="review__slide-header-info">
                                     <h3>Ольга Маримон</h3>
                                     <p>Aviator, Кемерово</p>
@@ -149,7 +149,7 @@ get_header(); ?>
                            
                            <div class="review__slider-wrapper-slide swiper-slide">
                               <div class="review__slide-header">
-                                 <img src="../wp-content/themes/zapara/assets/dist/review-img.fbecea9c.jpg" alt="" class="review__slide-header-image"> 
+                                 <img src="/wp-content/themes/zapara/assets/dist/review-img.fbecea9c.jpg" alt="" class="review__slide-header-image"> 
                                  <div class="review__slide-header-info">
                                     <h3>Алена Сафьянова</h3>
                                     <p>I like wine, Москва</p>

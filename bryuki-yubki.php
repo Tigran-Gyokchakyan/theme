@@ -7,7 +7,7 @@
 get_header(); ?>
 
       <main class="main" style="padding-top: 70px;">
-         <section class="review mobile" style="background-image:url(../wp-content/uploads/2021/01/07331.jpg);">
+         <section class="review mobile" style="background-image:url(/wp-content/uploads/2021/01/07331.jpg);">
             <div class="container">
                <div class="review__inner">
                   <h1 class="review__title">БРЮКИ & ЮБКИ</h1>
@@ -30,21 +30,21 @@ get_header(); ?>
         <section class="items1" style="padding-top:0;">
             <div class="container flex_images">
                <!--<div class="items1__inner">-->
-               <img src="../wp-content/themes/zapara/assets/dist/IMG_5745_.webp">
-               <img src="../wp-content/themes/zapara/assets/dist/_50.webp">
-               <img src="../wp-content/themes/zapara/assets/dist/IMG_5745_.webp">
-               <img src="../wp-content/themes/zapara/assets/dist/_50.webp">
-               <img src="../wp-content/themes/zapara/assets/dist/IMG_5745_.webp">
-               <img src="../wp-content/themes/zapara/assets/dist/_50.webp">
-               <img src="../wp-content/themes/zapara/assets/dist/IMG_5745_.webp">
-               <img src="../wp-content/themes/zapara/assets/dist/_50.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/IMG_5745_.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/_50.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/IMG_5745_.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/_50.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/IMG_5745_.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/_50.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/IMG_5745_.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/_50.webp">
 
-               <img src="../wp-content/themes/zapara/assets/dist/IMG_5745_.webp">
-               <img src="../wp-content/themes/zapara/assets/dist/_50.webp">
-               <img src="../wp-content/themes/zapara/assets/dist/IMG_5745_.webp">
-               <img src="../wp-content/themes/zapara/assets/dist/_50.webp">
-               <img src="../wp-content/themes/zapara/assets/dist/IMG_5745_.webp">
-               <img src="../wp-content/themes/zapara/assets/dist/_50.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/IMG_5745_.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/_50.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/IMG_5745_.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/_50.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/IMG_5745_.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/_50.webp">
                <!--</div>-->
             </div>
          </section>
