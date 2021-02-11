@@ -7,7 +7,7 @@
 get_header(); ?>
 
       <main class="main" style="padding-top: 70px;">
-         <section class="review mobile" style="background-image:url(../wp-content/uploads/2021/01/IMG_7902.jpg);">
+         <section class="review mobile" style="background-image:url(/wp-content/uploads/2021/01/IMG_7902.jpg);">
             <div class="container">
                <div class="review__inner">
                   <h1 class="review__title">ФАРТУКИ</h1>
@@ -140,9 +140,9 @@ get_header(); ?>
          </section>
          <section class="far_images">
             <div class="container">
-               <img src="../wp-content/themes/zapara/assets/dist/photo-8.webp">
-               <img src="../wp-content/themes/zapara/assets/dist/photo-10.webp">
-               <img src="../wp-content/themes/zapara/assets/dist/photo-15.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/photo-8.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/photo-10.webp">
+               <img src="/wp-content/themes/zapara/assets/dist/photo-15.webp">
             </div>
          </section>
          <section class="dev_section">

@@ -8,7 +8,7 @@ get_header(); ?>
 
       <main class="main" style="padding-top: 70px;">
 
-         <section class="review" style="background-image:url(../wp-content/themes/zapara/assets/dist/thansk.jpg);height:100vh;background-size:cover;">
+         <section class="review" style="background-image:url(/wp-content/themes/zapara/assets/dist/thansk.jpg);height:100vh;background-size:cover;">
             <div class="container">
                <div class="review__inner">
                   <h1 class="review__title">Спасибо!<div style="font-size:18px;padding-top:20px;font-weight:100;">В ближайшее время мы свяжемся с вами.<br>Как только наш менеджер закончит танцевать от радости.</div></h1>

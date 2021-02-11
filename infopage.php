@@ -1,5 +1,5 @@
 <?php /*
- Template Name: Info
+ Template Name: Infopage
  Template Post Type: page
  */ ?>
 
@@ -14,8 +14,8 @@ get_header(); ?>
             </a></section>
         <section class="pay" id="pay">
             <div class="container" style="font-size: 28px; line-height: 42px;font-weight:300;">
-				<?php the_content(); ?>
-             <!--  <div class="pay__wrapper"><h2 class="pay__wrapper-title"> ОПЛАТА </h2>
+				
+               <div class="pay__wrapper"><h2 class="pay__wrapper-title"> ОПЛАТА </h2>
                     <div style="width:100%;position:relative;overflow:auto;">
                         <table class="pay__wrapper-table">
                             <thead>
@@ -217,10 +217,15 @@ get_header(); ?>
                             <div class="accordion__content"><p>Нет, такой опции у нас нет.</p></div>
                         </li> 
                     </ul>
-                </div>-->
+                </div>
             </div>
         </section>
-
+				<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+		<script>
+			$(".accordion__item").click(function(){
+				$(this).toggleClass("activefaq");
+			});
+		</script>
         <div class="contact_text" id="5">Контакты</div>
          <section class="map">
             <div class="map__info">

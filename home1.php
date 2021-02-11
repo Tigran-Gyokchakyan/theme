@@ -36,7 +36,7 @@ get_header(); ?>
             </div>
         </div>
     </section>
-    <section class="apron" style="background-image:url(../wp-content/themes/zapara/assets/dist/bg2.bc954878.jpg);" id="1">
+    <section class="apron" style="background-image:url(/wp-content/themes/zapara/assets/dist/bg2.bc954878.jpg);" id="1">
         <div class="container">
             <div class="apron__inner">
                 <div class="apron__text-block" data-aos="fade-up">
@@ -45,14 +45,14 @@ get_header(); ?>
             </div>
         </div>
     </section>
-    <section class="tunic" style="background-image:url(../wp-content/themes/zapara/assets/dist/bg3.26d5d37c.jpg);" id="2">
+    <section class="tunic" style="background-image:url(/wp-content/themes/zapara/assets/dist/bg3.26d5d37c.jpg);" id="2">
         <div class="container">
             <div class="tunic__inner" data-aos="fade-up"><h2 class="tunic__title">Кители</h2>
                 <div class="tunic__text">Не такие как все</div>
                 <a href="" class="tunic__button link-btn">перейти</a></div>
         </div>
     </section>
-    <section class="pants" style="background-image:url(../wp-content/themes/zapara/assets/dist/bg3.26d5d37c.jpg);">
+    <section class="pants" style="background-image:url(/wp-content/themes/zapara/assets/dist/bg3.26d5d37c.jpg);">
         <div class="container">
             <div class="pants__inner" data-aos="fade-up">
                 <div class="pants__subtitle">Новая коллекция</div>
@@ -61,7 +61,7 @@ get_header(); ?>
             </div>
         </div>
     </section>
-    <section class="shirts" style="background-image:url(../wp-content/themes/zapara/assets/dist/bg4.35567f94.jpg);">
+    <section class="shirts" style="background-image:url(/wp-content/themes/zapara/assets/dist/bg4.35567f94.jpg);">
         <div class="container">
             <div class="shirts__inner" data-aos="fade-up">
                 <div class="shirts__subtitle"> То, что вы так долго искали</div>
@@ -69,7 +69,7 @@ get_header(); ?>
             </div>
         </div>
     </section>
-    <section class="accessories" style="background-image:url(../wp-content/themes/zapara/assets/dist/bg5.dde3f46a.jpg);" id="3">
+    <section class="accessories" style="background-image:url(/wp-content/themes/zapara/assets/dist/bg5.dde3f46a.jpg);" id="3">
         <div class="container">
             <div class="accessories__inner" data-aos="fade-up">
                 <div class="accessories__subtitle"> Дополняй, улучшай, обновляй</div>
@@ -79,7 +79,7 @@ get_header(); ?>
     </section>
     <section class="uniform">
         <div class="container">
-            <div class="uniform__inner"><img class="uniform__img" src="../wp-content/themes/zapara/assets/dist/bg6.c39fabb8.png" alt="">
+            <div class="uniform__inner"><img class="uniform__img" src="/wp-content/themes/zapara/assets/dist/bg6.c39fabb8.png" alt="">
                 <div class="uniform__text" data-aos="fade-up">
                     <div class="uniform__subtitle">Униформа которую хочется...</div>
                     <h2 class="uniform__title">носить</h2> <a href="#" class="uniform__link">в каталог</a></div>
@@ -91,20 +91,20 @@ get_header(); ?>
             <div class="clients__wrapper"><h2 class="clients__wrapper-title" data-aos="fade-up">Наши клиенты</h2>
                 <div class="clients__slider">
                     <div class="swiper-wrapper clients__slider-wrapper">
-                        <div class="swiper-slide clients__slider-wrapper-slide"><a href="#"> <img src="../wp-content/themes/zapara/assets/dist/15a.ac6e7332.jpg"
+                        <div class="swiper-slide clients__slider-wrapper-slide"><a href="#"> <img src="/wp-content/themes/zapara/assets/dist/15a.ac6e7332.jpg"
                                                                                                   alt="15a"> </a> <a
-                                href="#"> <img src="../wp-content/themes/zapara/assets/dist/bar_klava.6c336d24.jpg" alt="bar_klava"> </a></div>
+                                href="#"> <img src="/wp-content/themes/zapara/assets/dist/bar_klava.6c336d24.jpg" alt="bar_klava"> </a></div>
                         <div class="swiper-slide clients__slider-wrapper-slide"><a href="#"> <img
-                                    src="../wp-content/themes/zapara/assets/dist/45_parallel.2dcba3c8.jpg" alt="15a"> </a> <a href="#"> <img
-                                    src="../wp-content/themes/zapara/assets/dist/easy_brix_1.dadcf04b.jpg" alt="bar_klava"> </a></div>
+                                    src="/wp-content/themes/zapara/assets/dist/45_parallel.2dcba3c8.jpg" alt="15a"> </a> <a href="#"> <img
+                                    src="/wp-content/themes/zapara/assets/dist/easy_brix_1.dadcf04b.jpg" alt="bar_klava"> </a></div>
                         <div class="swiper-slide clients__slider-wrapper-slide"><a href="#"> <img
-                                    src="../wp-content/themes/zapara/assets/dist/174260logo.e5d673a8.jpg" alt="15a"> </a> <a href="#"> <img
-                                    src="../wp-content/themes/zapara/assets/dist/dyhless.08658041.jpg" alt="bar_klava"> </a></div>
+                                    src="/wp-content/themes/zapara/assets/dist/174260logo.e5d673a8.jpg" alt="15a"> </a> <a href="#"> <img
+                                    src="/wp-content/themes/zapara/assets/dist/dyhless.08658041.jpg" alt="bar_klava"> </a></div>
                         <div class="swiper-slide clients__slider-wrapper-slide"><a href="#"> <img
-                                    src="../wp-content/themes/zapara/assets/dist/244330.d87b83b2.jpg" alt="15a"> </a> <a href="#"> <img src="../wp-content/themes/zapara/assets/dist/ginza.041636c8.jpg"
+                                    src="/wp-content/themes/zapara/assets/dist/244330.d87b83b2.jpg" alt="15a"> </a> <a href="#"> <img src="/wp-content/themes/zapara/assets/dist/ginza.041636c8.jpg"
                                                                                                 alt="bar_klava"> </a></div>
                         <div class="swiper-slide clients__slider-wrapper-slide"><a href="#"> <img
-                                    src="../wp-content/themes/zapara/assets/dist/bakardi.4e928c26.jpg" alt="15a"> </a>
+                                    src="/wp-content/themes/zapara/assets/dist/bakardi.4e928c26.jpg" alt="15a"> </a>
                             <p class="clients__slider-text"> и другие... </p></div>
                     </div>
                     <svg xmlns:xlink="http://www.w3.org/1999/xlink" class="icon clients-button-next">
@@ -161,7 +161,7 @@ get_header(); ?>
                                     Несомненно, для последующих заказов, обращусь именно к вам!!! <br><br> Спасибо!!!
                                 </p> <a href="#" class="review__link">Facebook</a></div>
                             <div class="review__slider-wrapper-slide swiper-slide">
-                                <div class="review__slide-header"><img src="../wp-content/themes/zapara/assets/dist/review-img.fbecea9c.jpg" alt=""
+                                <div class="review__slide-header"><img src="/wp-content/themes/zapara/assets/dist/review-img.fbecea9c.jpg" alt=""
                                                                        class="review__slide-header-image">
                                     <div class="review__slide-header-info"><h3>Алена Сафьянова</h3>
                                         <p>Aviator, Кемерово</p>
@@ -213,19 +213,19 @@ get_header(); ?>
         <div class="container">
             <div class="gallery__wrapper"><h2 class="gallery__wrapper-title" data-aos="fade-up"> Галерея выполненных
                     работ </h2>
-                <div class="gallery__wrapper-content"><img src="../wp-content/themes/zapara/assets/dist/image1.a5afb937.jpg" alt="image"
+                <div class="gallery__wrapper-content"><img src="/wp-content/themes/zapara/assets/dist/image1.a5afb937.jpg" alt="image"
                                                            class="gallery__wrapper-content-image"> <img
-                        src="../wp-content/themes/zapara/assets/dist/image2.17d71673.jpg" alt="image" class="gallery__wrapper-content-image"> <img
-                        src="../wp-content/themes/zapara/assets/dist/image3.80c2688e.jpg" alt="image" class="gallery__wrapper-content-image"> <img
-                        src="../wp-content/themes/zapara/assets/dist/image4.74e074fb.jpg" alt="image" class="gallery__wrapper-content-image"> <img
-                        src="../wp-content/themes/zapara/assets/dist/image5.2a57aad3.jpg" alt="image" class="gallery__wrapper-content-image"> <img
-                        src="../wp-content/themes/zapara/assets/dist/image6.a7b0d843.jpg" alt="image" class="gallery__wrapper-content-image"> <img
-                        src="../wp-content/themes/zapara/assets/dist/image7.d54ef8a7.jpg" alt="image" class="gallery__wrapper-content-image"> <img
-                        src="../wp-content/themes/zapara/assets/dist/image8.5acad224.jpg" alt="image" class="gallery__wrapper-content-image"> <img
-                        src="../wp-content/themes/zapara/assets/dist/image9.8677e4ea.jpg" alt="image" class="gallery__wrapper-content-image"> <img
-                        src="../wp-content/themes/zapara/assets/dist/image10.2584f2a7.jpg" alt="image" class="gallery__wrapper-content-image"> <img
-                        src="../wp-content/themes/zapara/assets/dist/image11.16bf8b99.jpg" alt="image" class="gallery__wrapper-content-image"> <img
-                        src="../wp-content/themes/zapara/assets/dist/image12.29e586c8.jpg" alt="image" class="gallery__wrapper-content-image"></div>
+                        src="/wp-content/themes/zapara/assets/dist/image2.17d71673.jpg" alt="image" class="gallery__wrapper-content-image"> <img
+                        src="/wp-content/themes/zapara/assets/dist/image3.80c2688e.jpg" alt="image" class="gallery__wrapper-content-image"> <img
+                        src="/wp-content/themes/zapara/assets/dist/image4.74e074fb.jpg" alt="image" class="gallery__wrapper-content-image"> <img
+                        src="/wp-content/themes/zapara/assets/dist/image5.2a57aad3.jpg" alt="image" class="gallery__wrapper-content-image"> <img
+                        src="/wp-content/themes/zapara/assets/dist/image6.a7b0d843.jpg" alt="image" class="gallery__wrapper-content-image"> <img
+                        src="/wp-content/themes/zapara/assets/dist/image7.d54ef8a7.jpg" alt="image" class="gallery__wrapper-content-image"> <img
+                        src="/wp-content/themes/zapara/assets/dist/image8.5acad224.jpg" alt="image" class="gallery__wrapper-content-image"> <img
+                        src="/wp-content/themes/zapara/assets/dist/image9.8677e4ea.jpg" alt="image" class="gallery__wrapper-content-image"> <img
+                        src="/wp-content/themes/zapara/assets/dist/image10.2584f2a7.jpg" alt="image" class="gallery__wrapper-content-image"> <img
+                        src="/wp-content/themes/zapara/assets/dist/image11.16bf8b99.jpg" alt="image" class="gallery__wrapper-content-image"> <img
+                        src="/wp-content/themes/zapara/assets/dist/image12.29e586c8.jpg" alt="image" class="gallery__wrapper-content-image"></div>
                 <button class="link-btn"> еще...12341654621</button>
             </div>
         </div>
